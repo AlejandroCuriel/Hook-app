@@ -5,7 +5,6 @@ necesario descomentar la exportación del componente
 */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Padre } from './07-tarea-memo/Padre'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
@@ -17,12 +16,15 @@ import { Padre } from './07-tarea-memo/Padre'
 // import { MemoHook } from './06-memos/MemoHook'
 // import { Memorize } from './06-memos/Memorize'
 // import { CallBackHook } from './06-memos/CallBackHook'
+// import { Padre } from './07-tarea-memo/Padre'
 
 import './index.css'
+import './08-useReducer/intro-reducer';
+import { TodoApp } from './08-useReducer/TodoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
     // <FormWithCustomHook />
-    <Padre />
+    <TodoApp />
   // </React.StrictMode>
 )
